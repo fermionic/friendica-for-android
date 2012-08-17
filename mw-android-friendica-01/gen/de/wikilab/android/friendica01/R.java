@@ -230,30 +230,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int uploadfile_menu=0x7f0a0000;
     }
     public static final class string {
-        public static final int app_name=0x7f080009;
-        public static final int app_title_html=0x7f080011;
-        public static final int fake_data_notice=0x7f080023;
-        public static final int hello=0x7f080006;
-        public static final int intf_fileupload2=0x7f08000a;
-        public static final int loading_data=0x7f08000b;
-        public static final int login=0x7f080010;
-        public static final int mm_directmessages=0x7f08001d;
-        public static final int mm_friends=0x7f08001c;
-        public static final int mm_logout=0x7f080022;
-        public static final int mm_myphotoalbums=0x7f08001b;
-        public static final int mm_mywall=0x7f08001a;
-        public static final int mm_notifications=0x7f080019;
-        public static final int mm_preferences=0x7f080021;
-        public static final int mm_selectphoto=0x7f080020;
-        public static final int mm_takephoto=0x7f08001f;
-        public static final int mm_timeline=0x7f080018;
-        public static final int mm_updatemystatus=0x7f08001e;
-        public static final int notifications=0x7f080008;
-        public static final int password=0x7f08000f;
-        public static final int post=0x7f080017;
-        public static final int post_status_update=0x7f080016;
-        public static final int protocol=0x7f08000c;
-        public static final int proxy_settings=0x7f080015;
+        public static final int app_name=0x7f080008;
+        public static final int app_title_html=0x7f080010;
+        public static final int fake_data_notice=0x7f080022;
+        public static final int intf_fileupload2=0x7f080009;
+        public static final int loading_data=0x7f08000a;
+        public static final int login=0x7f08000f;
+        public static final int mm_directmessages=0x7f08001c;
+        public static final int mm_friends=0x7f08001b;
+        public static final int mm_logout=0x7f080021;
+        public static final int mm_myphotoalbums=0x7f08001a;
+        public static final int mm_mywall=0x7f080019;
+        public static final int mm_notifications=0x7f080018;
+        public static final int mm_preferences=0x7f080020;
+        public static final int mm_selectphoto=0x7f08001f;
+        public static final int mm_takephoto=0x7f08001e;
+        public static final int mm_timeline=0x7f080017;
+        public static final int mm_updatemystatus=0x7f08001d;
+        public static final int notifications=0x7f080007;
+        public static final int password=0x7f08000e;
+        public static final int post=0x7f080016;
+        public static final int post_status_update=0x7f080015;
+        public static final int protocol=0x7f08000b;
+        public static final int proxy_settings=0x7f080014;
         /**  Just use standard Pull Down String when pulling up. These can be set for languages which require it 
          */
         public static final int pull_to_refresh_from_bottom_pull_label=0x7f080003;
@@ -262,12 +261,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int pull_to_refresh_pull_label=0x7f080000;
         public static final int pull_to_refresh_refreshing_label=0x7f080002;
         public static final int pull_to_refresh_release_label=0x7f080001;
-        public static final int server=0x7f08000d;
-        public static final int timeline=0x7f080007;
-        public static final int upload_file=0x7f080012;
-        public static final int upload_now=0x7f080013;
-        public static final int username=0x7f08000e;
-        public static final int viewLatLon=0x7f080014;
+        public static final int server=0x7f08000c;
+        public static final int timeline=0x7f080006;
+        public static final int upload_file=0x7f080011;
+        public static final int upload_now=0x7f080012;
+        public static final int username=0x7f08000d;
+        public static final int viewLatLon=0x7f080013;
     }
     public static final class xml {
         public static final int prefs_main=0x7f050000;
