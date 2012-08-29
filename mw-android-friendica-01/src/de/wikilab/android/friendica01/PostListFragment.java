@@ -42,6 +42,12 @@ public class PostListFragment extends ContentFragment {
 	
 	HashSet<Long> containedIds = new HashSet<Long>();
 	
+	/*@Override
+	public void onCreate(Bundle savedInstanceState) {
+	    super.onCreate(savedInstanceState);
+	    setRetainInstance(true);
+	}*/
+	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		myView = inflater.inflate(R.layout.pl_listviewinner, container, false);
@@ -226,8 +232,10 @@ public class PostListFragment extends ContentFragment {
 					setItems(j);
 					
 				} catch (Exception e) {
-					list.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.pl_error_listitem, android.R.id.text1, new String[]{"Error: "+ e.getMessage(), Max.Hexdump(t.getResult().getBytes())}));
-					e.printStackTrace();
+					try {
+						list.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.pl_error_listitem, android.R.id.text1, new String[]{"Error: "+ e.getMessage(), Max.Hexdump(t.getResult().getBytes())}));
+						e.printStackTrace();
+					} catch(Exception ignoreException) {}
 				}
 				hideProgBar();
 			}
