@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.wikilab.android.friendica01"
     android:versionCode="7"
-    android:versionName="7.0.4" >
+    android:versionName="7.0.5" >
 
     
     <!--
@@ -46,6 +46,19 @@
 	- click username/profileimage to navigate user profile
 	- click image thumbnail to view large image
 	- bugfix to FC in image upload
+	7.0.1
+	- fix null pointer error
+	- update unread items whenever you return to the main menu
+	7.0.2
+	- load embedded images (for private contacts)
+	- try to fix some FCs
+	7.0.3
+	- clicking on embedded images loads them
+	7.0.4
+	- auto-capitalize sentences for posts and comments
+	7.0.5
+	- don't reload content on orientation changes
+	- try fixing more FCs
     -->
 
 
@@ -89,7 +102,8 @@
             android:name=".GenericContentActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:windowSoftInputMode="stateHidden" >
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="orientation" >
         </activity>
         <activity
             android:name=".PhotoGalleryActivity"
